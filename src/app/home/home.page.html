@@ -1,0 +1,119 @@
+
+<ion-header [translucent]="true" >
+  <ion-toolbar class="header">
+    <ion-img src="../../assets/images/radio-ecci-header.png" class="radio-ecci-header"></ion-img>
+    <!-- <ion-icon name="menu-outline" style="margin-left:90%"></ion-icon> -->
+  </ion-toolbar>
+
+</ion-header>
+
+
+<ion-content >
+  
+  <ion-header [translucent]="true" >
+   
+    <ion-toolbar class="sub-header">
+      <!-- Imagen alineada en la parte inicial -->
+      <ion-img src="../../assets/images/logo_radio.png" class="logo-radio"></ion-img>
+    
+      <!-- Título centrado -->
+      <ion-title style="color: white; text-align: center; display: flex; align-items: center; justify-content: center; flex-grow: 1; font-weight: bold;">
+        RADIO 
+        <span style="color: white;">E</span>
+        <span style="color: #c41919;font-weight: bold;">C</span>
+        <span style="color: #ebc02b;font-weight: bold;">C</span>
+        <span style="color: white;">I</span>
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content style="height:680px;--background:#787878" >
+    <ion-img src="../../assets/images/Banner1.jpg"></ion-img>
+  </ion-content>
+  
+      <ion-grid style="margin-top: 20px;">
+        <ion-row style="display: flex; justify-content: center; align-items: center;">
+          <ion-col size-md="5.5" size-xs="12" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <ion-title style="font-weight: bold; text-align: start; margin-bottom: 20px;">
+              LO MÁS RECIENTE
+            </ion-title>
+            <ion-card style="height: 580px; --background: #4274c5; border-radius: 20px; width: 70%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+              <ion-img src="../../assets/images/Dia_de_la_matematica.jpg"></ion-img>
+            </ion-card>
+          </ion-col>
+        
+          <ion-col size-md="6.5" size-xs="12" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <ion-title style="font-weight: bold; height: 150px; margin-bottom: 20px;">
+              ESCUCHA NUESTROS PODCASTS
+            </ion-title>
+            <ion-card style="height: 400px; --background: #e3ebf8; border-radius: 15px; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <audio controls="controls" style="height: 250px; --background: #032e52; margin: 15px 30px 0 30px; border-radius: 5px; width: 90%;">
+                <source src="https://api.spreaker.com/v2/episodes/57370440/download.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+              </audio>
+            </ion-card>
+          </ion-col>
+        
+          <ion-col size-md="6.5" size-xs="12" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+            <ion-title style="font-weight: bold; height: 150px; margin-bottom: 20px;">
+              ESCUCHANOS EN VIVO
+            </ion-title>
+            <ion-card style="height: 675px; --background: #96b9da; border-radius: 20px; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+              <div style="height: 300px; width: 100%; display: flex; justify-content: center; align-items: center;">
+                <img src="../../assets/images/Envivo.jpg" alt="Imagen en Vivo">
+              </div>
+              <div style="margin-top: 20px; margin-right: 20px; align-self: flex-end;">
+                <audio controls style="margin-top: 10px;">
+                  <source src="https://us4freenew.listen2myradio.com/live.mp3?typeportmount=s1_27929_stream_960551158">
+                </audio>
+              </div>
+            </ion-card>
+          </ion-col>
+          
+          
+          
+          
+        </ion-row>
+        
+        
+      </ion-grid>
+      <ion-footer>
+        <ion-toolbar>
+          <ion-img src="../../assets/images/footer.png" ></ion-img>
+      
+        </ion-toolbar>
+      </ion-footer>
+   
+</ion-content>
+
+<ion-card style="position: absolute;height: 260px;width: 70px;margin-top: 120px;border-radius: 50px;--background:rgba(3, 46, 82, 0.5)">
+    <ion-card-content>
+  
+      <!-- <ion-grid style="border: 2px solid black;width: 40px;height: 20px;">
+        <ion-row style="border: 2px solid black;width: 40px;">
+          <img src="../../assets/images/facebook.png" style="width: 40px;min-width: 40px;height: auto;border: 2px solid black;">
+        </ion-row>
+        <ion-row style="margin-top: 5px;">
+          <img src="../../assets/images/instagram.png" style="width: 30px;min-width: 30px;height: auto;">
+        </ion-row>
+        <ion-row style="margin-top: 5px;"> 
+          <img src="../../assets/images/whatsapp.png" style="width: 30px;min-width: 30px;height: auto;">
+        </ion-row>
+        <ion-row style="margin-top: 5px;">
+          <img src="../../assets//images/youtube.png" style="width: 30px;min-width: 30px;height: auto;">
+        </ion-row>
+        <ion-row style="margin-top: 5px;">
+          <img src="../../assets//images/spotify.png" style="width: 30px;min-width: 30px;height: auto;">
+        </ion-row>
+      </ion-grid> -->
+     
+      <ion-list style="height: 250px;--ion-background-color:transparent;width: 70;"> 
+        <img src="../../assets/images/facebook.png" style="width: 35px;min-width: 35px;height: auto;">
+        <img src="../../assets/images/instagram.png" style="width: 35px;min-width: 35px;height: auto;margin-top: 7px;">
+        <img src="../../assets/images/whatsapp.png" style="width: 45px;min-width: 45px;height: auto;margin-left: -5px;">
+        <img src="../../assets//images/spotify.png" style="width: 46px;min-width: 45px;height: auto;margin-left: -5px;margin-top: -2px;">
+        <img src="../../assets//images/youtube.png" style="width: 69px;min-width:69px;height: auto;margin-left: -17px;margin-top: -2px;">
+
+      </ion-list>
+    </ion-card-content>
+</ion-card>
